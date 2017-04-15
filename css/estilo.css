@@ -1,0 +1,109 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+@font-face{
+	font-family: "Franklin Gothic Book Regular";
+	font-style: normal;
+	font-weight: normal;
+	src: url("../font/"), url("../font/FRABK.ttf") format("ttf"),               ../font/FRABK.TTF
+		url("../font/FRABK.woff") format("woff");
+}
+body{
+	width: 1020px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	font-family: "Franklin Gothic Book Regular", Helvetica, verdana;
+}
+
+header{
+	height: 100px;
+}
+
+nav{
+	width: 1000px;
+	height: 60px;
+	background: #005883;
+	border-radius: 3px;
+}
+
+nav ul{
+	display: flex;
+	list-style: none;
+}
+
+nav ul li a{
+	display: block;
+	padding: 20px 20px;
+	color: #fff;
+	text-decoration: none;
+}
+
+section{
+	width: 700px;
+	background: #B3B3B3;
+	height: 300px;
+	margin-top: 10px;
+	border-radius: 3px;
+	float: left;
+}
+
+article{
+	width: 450px;
+	height: 200px;
+	float: right;
+	margin: 20px;
+}
+
+p{
+	font-size: 15px;
+	font-weight: bolder;
+	line-height: 18px;
+	text-align: justify;
+	margin: 5px;
+}
+
+aside{
+	width: 280px;
+	background: #f47920;
+	height: 300px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+	border-radius: 3px;
+}
+aside ul{
+	list-style: none;
+}
+
+aside ul li a{
+	float: right;
+	padding: 10px;
+	background: #f47920;
+	text-decoration: none;
+}
+
+footer{
+	width: 1000px;
+	background: black;
+	height: 150px;
+	float: left;
+	margin-top: 10px;
+	border-radius: 3px;
+}
+
+
+/*Clases*/
+
+.menu:link{color: white; text-decoration: none;}
+.menu:visited{color: white; text-decoration: none;}
+.menu:hover{color: white; text-decoration: none;}
+.menu:active{color: white; text-decoration: none;}
+
+
+
+
+
+
